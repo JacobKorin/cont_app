@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return jsonify({"message": "Hello from your containerized Flask app!"})
+    return jsonify({"message": "Hello from your containerized Flask app! I made a change."})
 
 @app.route('/health')
 def health():
